@@ -105,7 +105,8 @@ export function ContactForm() {
         tabIndex={-1}
         autoComplete="off"
         aria-hidden="true"
-        style={{ position: "absolute", left: "-9999px", width: 1, height: 1 }}
+        defaultValue=""
+        style={{ display: "none" }}
       />
       <input
         type="hidden"

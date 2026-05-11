@@ -1,8 +1,9 @@
 # Justin Middler
 
-Cyber Security Engineer and Software Engineer based in Canberra, ACT,
-Australia. 12+ years across Australian Federal Government development and
-cyber-security engagements. Formerly Microsoft, Core Azure Networking.
+Indigenous Australian Cyber Security Engineer and Software Engineer based
+in Canberra, ACT, Australia. 12+ years across Australian Federal
+Government development and cyber-security engagements. Formerly
+Microsoft, Core Azure Networking.
 
 GitHub: https://github.com/jusso-dev
 Site:   https://jusso-dev.github.io/jussodev-portfolio/
@@ -11,6 +12,7 @@ Site:   https://jusso-dev.github.io/jussodev-portfolio/
 
 - Name: Justin Middler
 - Handle: jusso-dev
+- Heritage: Indigenous Australian
 - Location: Canberra, ACT, Australia
 - Practice: Software Engineering // Cyber Security
 - Tenure: 12 years + (2012 — present)

@@ -20,7 +20,7 @@ const siteUrl =
   process.env.SITE_URL ?? "https://jusso-dev.github.io/jussodev-portfolio";
 
 const description =
-  "Justin Middler — Cyber Security Engineer and Software Engineer based in Canberra, ACT. 12+ years across Australian Federal Government engagements in development, cyber-security, SOAR, SIEM (Microsoft Sentinel), ACSC ISM and Essential 8 uplift. Formerly Microsoft, Core Azure Networking.";
+  "Justin Middler — Indigenous Australian Cyber Security Engineer and Software Engineer based in Canberra, ACT. 12+ years across Australian Federal Government engagements in development, cyber-security, SOAR, SIEM (Microsoft Sentinel), ACSC ISM and Essential 8 uplift. Formerly Microsoft, Core Azure Networking.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -39,6 +39,9 @@ export const metadata: Metadata = {
   keywords: [
     "Justin Middler",
     "jusso-dev",
+    "Indigenous Australian",
+    "Aboriginal Australian",
+    "First Nations technologist",
     "Cyber Security Engineer",
     "Software Engineer",
     "Canberra ACT",
@@ -126,6 +129,14 @@ const personSchema = {
     "PowerShell",
   ],
   knowsLanguage: "en",
+  nationality: { "@type": "Country", name: "Australia" },
+  identifier: [
+    {
+      "@type": "PropertyValue",
+      propertyID: "heritage",
+      value: "Indigenous Australian",
+    },
+  ],
   hasOccupation: [
     {
       "@type": "Occupation",

@@ -48,8 +48,8 @@ export default function Page() {
               Justin Middler
             </h1>
             <p className="subject__sub">
-              Cyber Security Professional · Canberra, ACT · Practising 2012 —
-              present
+              Cyber Security Professional · Indigenous Australian · Canberra,
+              ACT · Practising 2012 — present
             </p>
 
             <dl className="attrs">
@@ -361,6 +361,17 @@ export default function Page() {
             </div>
 
             <ContactForm />
+
+            <p className="acknowledgement">
+              <span className="acknowledgement__label">
+                Acknowledgement of Country
+              </span>
+              <span className="acknowledgement__body">
+                I acknowledge the Traditional Custodians of the lands on
+                which this work is carried out, and pay respect to Elders
+                past, present, and emerging. Sovereignty was never ceded.
+              </span>
+            </p>
 
             <div className="colophon">
               <div>

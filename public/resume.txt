@@ -1,4 +1,5 @@
 JUSTIN MIDDLER
+Indigenous Australian
 Cyber Security Engineer / Software Engineer
 Canberra, ACT, Australia
 GitHub: https://github.com/jusso-dev
@@ -6,13 +7,13 @@ Site:   https://jusso-dev.github.io/jussodev-portfolio/
 
 SUMMARY
 -------
-Cyber Security Engineer and Software Engineer with 12+ years across
-Australian Federal Government development and cyber-security engagements,
-and prior tenure as a Software Engineer at Microsoft on Core Azure
-Networking. Practice spans Software Engineering and Cyber Security:
-SOAR / SIEM (Microsoft Sentinel) modernisation, threat intelligence,
-detection engineering, secure SDLC, container platforms, ACSC ISM and
-Essential 8 compliance uplift.
+Indigenous Australian Cyber Security Engineer and Software Engineer with
+12+ years across Australian Federal Government development and
+cyber-security engagements, and prior tenure as a Software Engineer at
+Microsoft on Core Azure Networking. Practice spans Software Engineering
+and Cyber Security: SOAR / SIEM (Microsoft Sentinel) modernisation,
+threat intelligence, detection engineering, secure SDLC, container
+platforms, ACSC ISM and Essential 8 compliance uplift.
 
 STACK
 -----

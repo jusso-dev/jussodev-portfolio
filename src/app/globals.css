@@ -651,8 +651,32 @@ a {
   outline: none;
 }
 
+.acknowledgement {
+  margin: clamp(2rem, 4vw, 3rem) 0 0;
+  padding: clamp(1.1rem, 2vw, 1.5rem) clamp(1.1rem, 2vw, 1.5rem);
+  border: 1px solid var(--ink-faint);
+  display: grid;
+  gap: 0.5rem;
+  max-width: 64ch;
+}
+
+.acknowledgement__label {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.acknowledgement__body {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-sm);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
 .colophon {
-  margin-top: clamp(2rem, 4vw, 3rem);
+  margin-top: clamp(1.5rem, 3vw, 2rem);
   padding-top: 1rem;
   border-top: 1px dashed var(--ink-faint);
   display: grid;

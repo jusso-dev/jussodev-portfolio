@@ -1,0 +1,106 @@
+JUSTIN MIDDLER
+Cyber Security Engineer / Software Engineer
+Canberra, ACT, Australia
+GitHub: https://github.com/jusso-dev
+Site:   https://jusso-dev.github.io/jussodev-portfolio/
+
+SUMMARY
+-------
+Cyber Security Engineer and Software Engineer with 12+ years across
+Australian Federal Government development and cyber-security engagements,
+and prior tenure as a Software Engineer at Microsoft on Core Azure
+Networking. Practice spans Software Engineering and Cyber Security:
+SOAR / SIEM (Microsoft Sentinel) modernisation, threat intelligence,
+detection engineering, secure SDLC, container platforms, ACSC ISM and
+Essential 8 compliance uplift.
+
+STACK
+-----
+TypeScript, Rust, Python, C# / .NET, PHP, Swift / React Native,
+PowerShell, Docker / Kubernetes, SQL.
+
+FRAMEWORKS
+----------
+ACSC ISM, Essential 8, IRAP, PSPF, NIST, OWASP Top 10.
+
+CERTIFICATIONS
+--------------
+Microsoft Azure AZ-900
+CompTIA Security+
+Acunetix Web Vulnerability Scanning
+
+EXPERIENCE
+----------
+
+Cyber Security Engineer                 2022 - present
+Australian Federal Government
+- Uplifted departmental Security Orchestration, Automation and Response
+  (SOAR) capability.
+- Modernised Security Information & Event Management (SIEM) platform,
+  including migration to Microsoft Sentinel.
+- Built threat-intelligence ingestion pipelines and executive reporting
+  feeding SES and branch-head briefings.
+- Drove ACSC ISM and Essential 8 compliance uplift in internal cloud.
+- Introduced automation replacing manual administrative actions in Azure.
+- Trained APS and contractor staff on Azure, automation, and
+  industry-standard software engineering practice.
+
+Software Engineer, Core Azure Networking   12 months, ending 2022
+Microsoft
+- Production engineering on the Azure networking plane in C# / .NET.
+- Underlying components relied on daily by hundreds of millions of users
+  worldwide.
+
+Cyber Security Architect / Cyber Security Officer   2019 - 2022
+Australian Federal Government
+- Cyber security subject-matter advice across cloud, hybrid, and
+  on-premises workloads.
+- Threat modelling, secure SDLC, secure code review, and OWASP Top 10
+  implementation review.
+- Delivered secure container proof-of-concept; architected production
+  container platforms (Azure Kubernetes Service, Red Hat OpenShift,
+  VMware Tanzu).
+- Briefed CISO / ITSA on findings; mentored permanent and contractor
+  staff.
+
+Software Engineering / DevOps / Automation   2012 - 2018
+Australian Federal Government
+- Lead developer on department's first AI chatbot (Microsoft Bot
+  Framework, C#, microservice / event-driven on Azure).
+- Introduced centralised Selenium / Page Object Model automation
+  testing across the engineering practice.
+- Stood up end-to-end CI/CD on Azure DevOps and TFS with custom
+  PowerShell DSC.
+- Server health monitoring with Dynatrace dashboards for proactive
+  incident prevention.
+- Contributed to architecture, infrastructure, release, and code
+  underpinning Australia's public-facing unemployment, skills, and
+  training services.
+
+SELECTED OPEN-SOURCE WORK · github.com/jusso-dev
+------------------------------------------------
+ISMSearch              TypeScript    Indexed search over the Australian
+                                     Government Information Security
+                                     Manual.
+IOC-Dispatch           TypeScript    Automates reporting of Indicators
+                                     of Compromise to relevant
+                                     authorities.
+M365-Secure            Rust          Microsoft 365 security assessment
+                                     CLI.
+NRLPredictor           PHP           Laravel app with a self-tuning
+                                     prediction model driven by the
+                                     Claude Agent SDK.
+quote-finder           Python        Indexes YouTube playlists into a
+                                     local SQLite/FTS5 transcript store
+                                     for phrase search.
+OhmsLawCalculator      Swift / RN    React Native mobile application
+                                     that calculates Ohm's Law.
+Rusty-files            Rust          Watches files for hash changes.
+Azure-flowlog-parser   C#            Parses the JSON payload Azure emits
+                                     as network flow logs.
+
+CONTACT
+-------
+GitHub: https://github.com/jusso-dev
+Open an issue on any listed repository; identifies sender and preserves
+the record.

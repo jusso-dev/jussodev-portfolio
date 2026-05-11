@@ -1,0 +1,107 @@
+# Justin Middler
+
+Cyber Security Engineer and Software Engineer based in Canberra, ACT,
+Australia. 12+ years across Australian Federal Government development and
+cyber-security engagements. Formerly Microsoft, Core Azure Networking.
+
+GitHub: https://github.com/jusso-dev
+Site:   https://jusso-dev.github.io/jussodev-portfolio/
+
+## Identification
+
+- Name: Justin Middler
+- Handle: jusso-dev
+- Location: Canberra, ACT, Australia
+- Practice: Software Engineering // Cyber Security
+- Tenure: 12 years + (2012 — present)
+- Status: Operational. Open to selective engagements.
+
+## Stack
+
+TypeScript, Rust, Python, C# / .NET, PHP, Swift / React Native, PowerShell,
+Docker / Kubernetes, SQL.
+
+## Frameworks
+
+ACSC ISM, Essential 8, IRAP, PSPF, NIST, OWASP Top 10.
+
+## Certifications
+
+- Microsoft Azure AZ-900
+- CompTIA Security+
+- Acunetix Web Vulnerability Scanning
+
+## Mission record
+
+- Cyber Security Engineer · Australian Federal Government · 2022 — present.
+  Uplift of departmental SOAR capability and modernisation of the SIEM
+  platform, including migration to Microsoft Sentinel. Threat intelligence
+  ingestion pipelines and executive reporting feeding SES and branch-head
+  briefings. ISM and Essential 8 compliance uplift in internal cloud.
+  Training of APS and contractor staff on Azure, automation, and
+  industry-standard software engineering practice.
+
+- Software Engineer, Core Azure Networking · Microsoft · 12 months · ending
+  2022. Production work on the Azure networking plane in C# / .NET.
+  Underlying components relied on daily by hundreds of millions of users.
+
+- Cyber Security Architect and Cyber Security Officer · Australian Federal
+  Government · 2019 — 2022. Cyber security subject-matter advice across
+  cloud, hybrid, and on-premises workloads. Threat modelling, secure SDLC,
+  secure code review, OWASP Top 10 review. Delivered secure container
+  proof-of-concept; architected production container platforms (AKS,
+  OpenShift, Tanzu). Briefed CISO / ITSA on findings.
+
+- Software Engineering · DevOps · Automation · Australian Federal
+  Government · 2012 — 2018. Engineering roles supporting platforms that
+  underpin Australia's public-facing unemployment, skills, and training
+  services. Lead developer on the department's first AI chatbot (Microsoft
+  Bot Framework, C#, microservice / event-driven on Azure). Introduced
+  centralised Selenium / Page Object Model automation testing and stood up
+  end-to-end CI/CD on Azure DevOps and TFS with custom PowerShell DSC.
+  Server health monitoring with Dynatrace.
+
+## Notable impact
+
+- Introduced automated UI testing and automated server-health monitoring
+  across a federal department's engineering practice (2014 — 2016).
+  Patterns and pipelines still in active use.
+- Contributed architecture, infrastructure, release, and code to the
+  platforms behind Australia's public-facing unemployment, skills, and
+  training programs.
+- Shipped to the Azure networking plane at Microsoft. Code paths exercised
+  daily by hundreds of millions of users worldwide.
+- Re-joined the federal practice in 2022 within a Technology Architecture
+  team. Uplifted and standardised architecture artefacts still in use;
+  introduced cadenced internal and external stakeholder rituals that
+  improved inter-agency turnaround on hosting requests.
+- Built a lightweight task-tracking system for the EL2 practice lead,
+  giving real-time visibility of team workload to senior executives.
+- Lifted departmental SOAR capability and migrated the SIEM to Microsoft
+  Sentinel. Built threat-intelligence ingestion and reporting pipelines.
+- Drove ISM and Essential 8 compliance uplift across internal cloud.
+- Contributed to open-source projects the team relies on, so the
+  department consumes safer, better-maintained software from the
+  community.
+
+## Field artifacts · github.com/jusso-dev
+
+- ISMSearch — Index of the Australian Government Information Security
+  Manual as searchable documents. TypeScript.
+- IOC-Dispatch — Speeds up and automates the reporting of Indicators of
+  Compromise to relevant authorities. TypeScript.
+- M365-Secure — Microsoft 365 security assessment CLI, written in Rust.
+- NRLPredictor — Laravel app with a self-tuning prediction model driven by
+  the Claude Agent SDK. PHP.
+- quote-finder — Indexes YouTube playlists into a local SQLite/FTS5
+  transcript store and searches them for phrases. Python.
+- OhmsLawCalculator — React Native mobile application that calculates
+  Ohm's Law. Swift / React Native.
+- Rusty-files — Watches files for hash changes. Rust.
+- Azure-flowlog-parser — Parses the JSON payload Azure emits as network
+  flow logs. C#.
+
+## Contact
+
+GitHub: https://github.com/jusso-dev — open an issue on any listed
+artifact; identifies sender and preserves the record.

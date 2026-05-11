@@ -472,6 +472,150 @@ a {
   }
 }
 
+/* ---------- Contact form ---------- */
+
+.form {
+  display: grid;
+  gap: 1rem;
+  max-width: 38rem;
+  margin-top: clamp(1.25rem, 2.5vw, 2rem);
+  padding-top: clamp(1.25rem, 2.5vw, 1.75rem);
+  border-top: 1px dashed var(--ink-faint);
+}
+
+.form__meta {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin: 0 0 0.25rem;
+}
+
+.form__row {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.form__label {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.form__input {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-sm);
+  background: oklch(from var(--paper) calc(l + 0.005) c h);
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  padding: 0.6rem 0.75rem;
+  color: var(--ink);
+  outline: none;
+  width: 100%;
+  line-height: 1.4;
+}
+
+.form__input::placeholder {
+  color: var(--ink-faint);
+}
+
+.form__input:focus-visible {
+  border-color: var(--stamp);
+  box-shadow: inset 0 0 0 1px var(--stamp);
+}
+
+.form__textarea {
+  min-height: 7rem;
+  resize: vertical;
+}
+
+.form__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem 1.25rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+.form__submit {
+  font-family: var(--font-display), monospace;
+  font-size: var(--text-sm);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: var(--ink);
+  color: var(--paper);
+  border: 2px solid var(--ink);
+  padding: 0.65rem 1.15rem;
+  cursor: pointer;
+  transition:
+    background-color 180ms var(--ease-out-quint),
+    border-color 180ms var(--ease-out-quint),
+    transform 180ms var(--ease-out-quint);
+}
+
+.form__submit:hover,
+.form__submit:focus-visible {
+  background: var(--stamp);
+  border-color: var(--stamp);
+  outline: none;
+}
+
+.form__submit:active {
+  transform: translateY(1px);
+}
+
+.form__submit:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+
+.form__hint {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.form__error {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-sm);
+  color: var(--stamp);
+  margin: 0;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--stamp);
+  background: oklch(from var(--stamp) 0.97 0.02 h);
+}
+
+.form__missing {
+  font-family: var(--font-body), monospace;
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+  font-style: italic;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--ink-faint);
+  margin-top: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.form__sent {
+  display: grid;
+  gap: 1rem;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+  border: 2px solid var(--ink);
+  margin-top: clamp(1.25rem, 2.5vw, 2rem);
+  background: oklch(from var(--paper-deep) l c h / 0.6);
+}
+
+.form__sent p {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--ink);
+}
+
 /* ---------- Contact / footer ---------- */
 
 .contact {

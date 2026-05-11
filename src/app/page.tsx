@@ -1,5 +1,6 @@
 import { ArtifactRow } from "@/components/ArtifactRow";
 import { ClassificationBanner } from "@/components/ClassificationBanner";
+import { ContactForm } from "@/components/ContactForm";
 import { Redacted } from "@/components/Redacted";
 import { Stamp } from "@/components/Stamp";
 import { projects } from "@/lib/projects";
@@ -351,13 +352,6 @@ export default function Page() {
                 </span>
               </div>
               <div className="contact__line">
-                <span className="attrs__key">Direct</span>
-                <span className="attrs__val">
-                  Open an issue on any listed artifact. Identifies sender,
-                  preserves the record.
-                </span>
-              </div>
-              <div className="contact__line">
                 <span className="attrs__key">Engagement</span>
                 <span className="attrs__val">
                   Selective. Australian Federal context preferred. Cyber and
@@ -365,6 +359,8 @@ export default function Page() {
                 </span>
               </div>
             </div>
+
+            <ContactForm />
 
             <div className="colophon">
               <div>

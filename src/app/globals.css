@@ -532,6 +532,11 @@ a {
   resize: vertical;
 }
 
+.form__turnstile {
+  min-height: 65px;
+  margin-top: 0.25rem;
+}
+
 .form__actions {
   display: flex;
   align-items: center;

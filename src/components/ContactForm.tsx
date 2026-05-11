@@ -1,8 +1,10 @@
 "use client";
 
+import Script from "next/script";
 import { useState, type FormEvent } from "react";
 
 const ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
 type State = "idle" | "sending" | "sent" | "error";
 
@@ -15,6 +17,16 @@ export function ContactForm() {
     if (!ENDPOINT) return;
     const form = event.currentTarget;
     const data = new FormData(form);
+
+    if (TURNSTILE_SITE_KEY) {
+      const token = data.get("cf-turnstile-response");
+      if (!token || typeof token !== "string" || token.length === 0) {
+        setError("Complete the verification challenge above.");
+        setState("error");
+        return;
+      }
+    }
+
     setState("sending");
     setError("");
     try {
@@ -33,6 +45,12 @@ export function ContactForm() {
         throw new Error(msg);
       }
       form.reset();
+      if (typeof window !== "undefined") {
+        const turnstile = (
+          window as unknown as { turnstile?: { reset: () => void } }
+        ).turnstile;
+        turnstile?.reset();
+      }
       setState("sent");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unknown error");
@@ -152,6 +170,23 @@ export function ContactForm() {
           maxLength={4000}
         />
       </div>
+
+      {TURNSTILE_SITE_KEY && (
+        <>
+          <Script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+            strategy="afterInteractive"
+            async
+            defer
+          />
+          <div
+            className="cf-turnstile form__turnstile"
+            data-sitekey={TURNSTILE_SITE_KEY}
+            data-theme="light"
+            data-appearance="always"
+          />
+        </>
+      )}
 
       <div className="form__actions">
         <button

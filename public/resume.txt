@@ -80,25 +80,25 @@ Australian Federal Government
 
 SELECTED OPEN-SOURCE WORK · github.com/jusso-dev
 ------------------------------------------------
-ISMSearch              TypeScript    Indexed search over the Australian
-                                     Government Information Security
-                                     Manual.
-IOC-Dispatch           TypeScript    Automates reporting of Indicators
-                                     of Compromise to relevant
-                                     authorities.
-M365-Secure            Rust          Microsoft 365 security assessment
-                                     CLI.
-NRLPredictor           PHP           Laravel app with a self-tuning
-                                     prediction model driven by the
-                                     Claude Agent SDK.
-quote-finder           Python        Indexes YouTube playlists into a
-                                     local SQLite/FTS5 transcript store
-                                     for phrase search.
-OhmsLawCalculator      Swift / RN    React Native mobile application
-                                     that calculates Ohm's Law.
-Rusty-files            Rust          Watches files for hash changes.
-Azure-flowlog-parser   C#            Parses the JSON payload Azure emits
-                                     as network flow logs.
+ScopeStack             TypeScript    Branded SOW, proposal, and quote
+                                     workflow with client portal
+                                     acceptance and audit trails.
+AthenemyLMS            TypeScript    Self-hostable LMS for course
+                                     authoring, branded workspaces,
+                                     payments, certificates, APIs, and
+                                     automation hooks.
+Tawny                  C# / Zig / TS Self-hosted lightweight EDR with a
+                                     Zig agent, .NET backend, detection
+                                     rules, and Sentinel/Wazuh forwarding.
+OakAttest              TypeScript    Open-source IRAP assessment
+                                     workspace for scoping, evidence, ISM
+                                     applicability, findings, and exports.
+awesome-Australian-    Markdown /    Agent skills and markdown references
+compliance             Shell         for Essential Eight, ISM, IRAP, PSPF,
+                                     privacy, NDB, and compliance work.
+IOC-Dispatch           TypeScript    API-first IOC submission router with
+                                     provider routing, audit logs, and safe
+                                     browser-automation fallbacks.
 
 CONTACT
 -------

@@ -8,63 +8,51 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "ISMSearch",
+    name: "ScopeStack",
     description:
-      "Index of the Australian Government Information Security Manual as searchable documents.",
+      "Branded SOW, proposal, and quote workflow with templates, client portal acceptance, audit trails, and PDFs.",
     lang: "TypeScript",
     updated: "2026.05",
-    href: "https://github.com/jusso-dev/ISMSearch",
+    href: "https://github.com/jusso-dev/ScopeStack",
+  },
+  {
+    name: "AthenemyLMS",
+    description:
+      "Self-hostable LMS for course authoring, branded workspaces, payments, certificates, APIs, and automation hooks.",
+    lang: "TypeScript",
+    updated: "2026.05",
+    href: "https://github.com/jusso-dev/AthenemyLMS",
+  },
+  {
+    name: "Tawny",
+    description:
+      "Self-hosted lightweight EDR with a Zig agent, .NET backend, detection rules, and Sentinel/Wazuh forwarding.",
+    lang: "C# / Zig / TS",
+    updated: "2026.05",
+    href: "https://github.com/jusso-dev/Tawny",
+  },
+  {
+    name: "OakAttest",
+    description:
+      "Open-source IRAP assessment workspace for scoping, evidence, ISM applicability, findings, and SSP exports.",
+    lang: "TypeScript",
+    updated: "2026.05",
+    href: "https://github.com/jusso-dev/OakAttest",
+  },
+  {
+    name: "awesome-Australian-compliance",
+    description:
+      "Agent skills and markdown references for Essential Eight, ISM, IRAP, PSPF, privacy, NDB, and compliance work.",
+    lang: "Markdown / Shell",
+    updated: "2026.05",
+    href: "https://github.com/jusso-dev/awesome-Australian-compliance",
   },
   {
     name: "IOC-Dispatch",
     description:
-      "Speeds up and automates the reporting of Indicators of Compromise to relevant authorities.",
+      "API-first IOC submission router with provider routing, audit logs, and safe browser-automation fallbacks.",
     lang: "TypeScript",
     updated: "2026.05",
     href: "https://github.com/jusso-dev/IOC-Dispatch",
-  },
-  {
-    name: "M365-Secure",
-    description: "Microsoft 365 security assessment CLI, written in Rust.",
-    lang: "Rust",
-    updated: "2026.05",
-    href: "https://github.com/jusso-dev/M365-Secure",
-  },
-  {
-    name: "NRLPredictor",
-    description:
-      "Laravel app with a self-tuning prediction model driven by the Claude Agent SDK.",
-    lang: "PHP",
-    updated: "2026.05",
-    href: "https://github.com/jusso-dev/NRLPredictor",
-  },
-  {
-    name: "quote-finder",
-    description:
-      "Indexes YouTube playlists into a local SQLite/FTS5 transcript store and searches them for phrases.",
-    lang: "Python",
-    updated: "2026.05",
-    href: "https://github.com/jusso-dev/quote-finder",
-  },
-  {
-    name: "OhmsLawCalculator",
-    description: "React Native mobile application that calculates Ohm's Law.",
-    lang: "Swift / RN",
-    updated: "2026.05",
-    href: "https://github.com/jusso-dev/OhmsLawCalculator",
-  },
-  {
-    name: "Rusty-files",
-    description: "Watches files for hash changes. Rust. Small. Quiet.",
-    lang: "Rust",
-    updated: "2025.11",
-    href: "https://github.com/jusso-dev/Rusty-files",
-  },
-  {
-    name: "Azure-flowlog-parser",
-    description: "Parses the JSON payload Azure emits as network flow logs.",
-    lang: "C#",
-    updated: "2025.11",
-    href: "https://github.com/jusso-dev/Azure-flowlog-parser",
   },
 ];

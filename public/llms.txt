@@ -88,20 +88,20 @@ ACSC ISM, Essential 8, IRAP, PSPF, NIST, OWASP Top 10.
 
 ## Field artifacts · github.com/jusso-dev
 
-- ISMSearch — Index of the Australian Government Information Security
-  Manual as searchable documents. TypeScript.
-- IOC-Dispatch — Speeds up and automates the reporting of Indicators of
-  Compromise to relevant authorities. TypeScript.
-- M365-Secure — Microsoft 365 security assessment CLI, written in Rust.
-- NRLPredictor — Laravel app with a self-tuning prediction model driven by
-  the Claude Agent SDK. PHP.
-- quote-finder — Indexes YouTube playlists into a local SQLite/FTS5
-  transcript store and searches them for phrases. Python.
-- OhmsLawCalculator — React Native mobile application that calculates
-  Ohm's Law. Swift / React Native.
-- Rusty-files — Watches files for hash changes. Rust.
-- Azure-flowlog-parser — Parses the JSON payload Azure emits as network
-  flow logs. C#.
+- ScopeStack — Branded SOW, proposal, and quote workflow with templates,
+  client portal acceptance, audit trails, and PDFs. TypeScript.
+- AthenemyLMS — Self-hostable LMS for course authoring, branded
+  workspaces, payments, certificates, APIs, and automation hooks.
+  TypeScript.
+- Tawny — Self-hosted lightweight EDR with a Zig agent, .NET backend,
+  detection rules, and Sentinel/Wazuh forwarding. C# / Zig / TypeScript.
+- OakAttest — Open-source IRAP assessment workspace for scoping,
+  evidence, ISM applicability, findings, and SSP exports. TypeScript.
+- awesome-Australian-compliance — Agent skills and markdown references
+  for Essential Eight, ISM, IRAP, PSPF, privacy, NDB, and compliance
+  work. Markdown / Shell.
+- IOC-Dispatch — API-first IOC submission router with provider routing,
+  audit logs, and safe browser-automation fallbacks. TypeScript.
 
 ## Contact
 

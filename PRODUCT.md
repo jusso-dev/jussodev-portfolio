@@ -13,7 +13,7 @@ Hiring managers, technical leaders, and government / cyber-adjacent peers landin
 A personal portfolio for Justin Middler — a Canberra-based Indigenous Australian software engineer with 12+ years inside the Australian Federal Government's development and cyber-security practice, and prior experience as a Software Engineer at Microsoft (core Azure Networking). The site exists to:
 
 1. Establish credibility quickly through specific, verifiable claims (tenure, employer, repos).
-2. Showcase recent personal work pulled from `github.com/jusso-dev/` — ScopeStack, AthenemyLMS, Tawny, OakAttest, awesome-Australian-compliance, IOC-Dispatch.
+2. Showcase recent personal work pulled from `github.com/jusso-dev/` — depscan, AthenemyLMS, Tawny, OakAttest, awesome-Australian-compliance, IOC-Dispatch.
 3. Hand off cleanly to GitHub for deeper inspection.
 
 Success: a visitor leaves with a precise, distinctive impression of a senior practitioner — not a generic developer portfolio — and either visits a repo or remembers the page well enough to mention it.

@@ -8,12 +8,12 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "ScopeStack",
+    name: "depscan",
     description:
-      "Branded SOW, proposal, and quote workflow with templates, client portal acceptance, audit trails, and PDFs.",
-    lang: "TypeScript",
-    updated: "2026.05",
-    href: "https://github.com/jusso-dev/ScopeStack",
+      "Cloud-agnostic endpoint telemetry framework with a static Go agent, plugin inventory (software, packages, certs), JSONL output, and Sentinel forwarding via DCRs.",
+    lang: "Go / PowerShell",
+    updated: "2026.06",
+    href: "https://github.com/jusso-dev/depscan",
   },
   {
     name: "AthenemyLMS",

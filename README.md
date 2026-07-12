@@ -4,6 +4,10 @@ Personal portfolio for Justin Middler, an Indigenous Australian cyber security a
 
 Static Next.js site styled as a declassified government dossier. Ships to GitHub Pages.
 
+## Screenshot
+
+![Portfolio homepage](docs/screenshots/portfolio-home.png)
+
 ## Local
 
 ```bash

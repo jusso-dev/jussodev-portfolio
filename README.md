@@ -8,6 +8,23 @@ Static Next.js site styled as a declassified government dossier. Ships to GitHub
 
 ![Portfolio homepage](docs/screenshots/portfolio-home.png)
 
+<details>
+<summary>View the dossier sections</summary>
+
+| Subject profile | Mission record |
+| --- | --- |
+| ![Portfolio subject profile](docs/screenshots/subject.png) | ![Portfolio mission record](docs/screenshots/mission-record.png) |
+
+| Notable impact | Field artifacts |
+| --- | --- |
+| ![Portfolio notable impact](docs/screenshots/notable-impact.png) | ![Portfolio field artifacts](docs/screenshots/field-artifacts.png) |
+
+| Contact channels |
+| --- |
+| ![Portfolio contact channels](docs/screenshots/address-disposition.png) |
+
+</details>
+
 ## Local
 
 ```bash

@@ -19,19 +19,19 @@ export default function Page() {
           <header className="dossier__header">
             <div>
               <p className="dossier__id">
-                DOSSIER 001 — SUBJECT: J. MIDDLER
+                DOSSIER 001 · SUBJECT: J. MIDDLER
               </p>
               <p
                 id="dossier-summary"
                 className="label"
                 style={{ marginTop: "0.35rem" }}
               >
-                File released for public review · Rev. 2026.05
+                File released for public review · Rev. 2026.07
               </p>
             </div>
             <div className="dossier__page">
               <div>P. 01 OF 01</div>
-              <div style={{ marginTop: "0.2rem" }}>CTRL № 2026-05-JM</div>
+              <div style={{ marginTop: "0.2rem" }}>CTRL № 2026-07-JM</div>
             </div>
           </header>
 
@@ -49,7 +49,7 @@ export default function Page() {
             </h1>
             <p className="subject__sub">
               Cyber Security Professional · Indigenous Australian · Canberra,
-              ACT · Practising 2012 — present
+              ACT · Australian Public Service since 2012
             </p>
 
             <dl className="attrs">
@@ -58,12 +58,12 @@ export default function Page() {
                 Software Engineering // Cyber Security
               </dd>
 
-              <dt className="attrs__key">Tenure</dt>
-              <dd className="attrs__val">12 years + · 2012 — present</dd>
+              <dt className="attrs__key">Career</dt>
+              <dd className="attrs__val">Almost 15 years · APS since 2012</dd>
 
               <dt className="attrs__key">Prior</dt>
               <dd className="attrs__val">
-                Microsoft — Software Engineer, Core Azure Networking (C# / .NET)
+                Microsoft · Software Engineer, Core Azure control plane (C# / .NET)
               </dd>
 
               <dt className="attrs__key">Frameworks</dt>
@@ -78,8 +78,8 @@ export default function Page() {
 
               <dt className="attrs__key">Stack</dt>
               <dd className="attrs__val">
-                TypeScript · Rust · Python · C# / .NET · PHP · Swift /
-                React Native · PowerShell · Docker · SQL
+                C# / .NET · PowerShell · TypeScript · Python · Java · Go ·
+                Swift · JavaScript · Docker · Kubernetes · SQL
               </dd>
 
               <dt className="attrs__key">Status</dt>
@@ -89,7 +89,7 @@ export default function Page() {
             </dl>
 
             <div className="stamp__row">
-              <Stamp rotate={-6}>Declassified — Public Release</Stamp>
+              <Stamp rotate={-6}>Declassified · Public Release</Stamp>
             </div>
           </section>
 
@@ -104,69 +104,97 @@ export default function Page() {
 
             <div className="record">
               <div className="record__entry">
+                <h3 className="record__title">Cloud Security Engineer</h3>
+                <p className="record__org">
+                  <Redacted label="Reveal agency">
+                    Department of Employment and Workplace Relations
+                  </Redacted>
+                  &nbsp;·&nbsp;2024 to 2026
+                </p>
+                <p className="record__body">
+                  Led cloud-security uplift across Microsoft Azure, including
+                  the adoption of Palo Alto Prisma Cloud and Cortex Cloud.
+                  Engineered detection rules, playbooks, threat-hunting
+                  queries, custom analytics, compliance monitoring, and
+                  vulnerability-management workflows. Built C# and PowerShell
+                  pipelines that processed hundreds of thousands of security
+                  records into Power BI reporting for executives, aligned to
+                  the ISM, Essential Eight, and Azure security guidance.
+                </p>
+                <p className="record__tags">
+                  <span>Prisma · Cortex</span>
+                  <span>Azure</span>
+                  <span>C# · PowerShell</span>
+                  <span>Power BI</span>
+                  <span>Cloud posture</span>
+                </p>
+              </div>
+
+              <div className="record__entry">
                 <h3 className="record__title">Cyber Security Engineer</h3>
                 <p className="record__org">
                   <Redacted label="Reveal agency">
-                    Australian Federal Government
+                    Department of Employment and Workplace Relations
                   </Redacted>
-                  &nbsp;·&nbsp;2022 — present
+                  &nbsp;·&nbsp;09/2022 to 2024
                 </p>
                 <p className="record__body">
-                  Uplift of departmental Security Orchestration, Automation
-                  and Response (SOAR) capability and modernisation of the
-                  Security Information &amp; Event Management (SIEM) platform,
-                  including migration to Microsoft Sentinel. Built threat
-                  intelligence ingestion pipelines and executive reporting
-                  feeding SES and branch-head briefings. Drove ISM and
-                  Essential 8 compliance uplift in the internal cloud, and
-                  trained APS and contractor staff on Azure, automation, and
-                  industry-standard software engineering practice.
+                  Provided senior technical direction across security
+                  engineering, incident response, cloud security, and
+                  automation. Led the migration from a legacy on-premises SIEM
+                  to Microsoft Sentinel and helped establish a cloud-native
+                  Security Operations capability. Implemented incident-response
+                  case management and SOAR, built threat-intelligence ingestion
+                  and executive reporting, and engineered detections across
+                  Sentinel, Defender XDR, and Defender for Endpoint.
                 </p>
                 <p className="record__tags">
+                  <span>Sentinel</span>
+                  <span>Defender XDR</span>
                   <span>SOAR</span>
-                  <span>SIEM · Sentinel</span>
-                  <span>Threat Intel</span>
-                  <span>ISM · Essential 8</span>
-                  <span>Azure</span>
+                  <span>Incident response</span>
+                  <span>Detection engineering</span>
                 </p>
               </div>
 
               <div className="record__entry">
                 <h3 className="record__title">
-                  Software Engineer · Core Azure Networking
+                  Software Engineer · Azure Control Plane
                 </h3>
-                <p className="record__org">Microsoft · 12 months · ending 2022</p>
+                <p className="record__org">Microsoft · Earlier career</p>
                 <p className="record__body">
-                  Production work on the Azure networking plane in C# / .NET.
-                  Underlying components relied on daily by hundreds of millions
-                  of users. Returned to the federal practice on completion.
+                  Contributed C# and .NET production engineering to Microsoft
+                  Azure control-plane services supporting infrastructure used
+                  by hundreds of millions of people. The work developed direct
+                  experience in hyperscale cloud engineering, secure software
+                  development, and resilient platform design.
                 </p>
                 <p className="record__tags">
                   <span>C# / .NET</span>
                   <span>Azure</span>
-                  <span>Networking</span>
+                  <span>Control plane</span>
                   <span>Hyperscale</span>
                 </p>
               </div>
 
               <div className="record__entry">
                 <h3 className="record__title">
-                  Cyber Security Architect · Cyber Security Officer
+                  Cyber Security Architect
                 </h3>
                 <p className="record__org">
                   <Redacted label="Reveal agency">
-                    Australian Federal Government
+                    Department of Education, Skills and Employment
                   </Redacted>
-                  &nbsp;·&nbsp;2019 — 2022
+                  &nbsp;·&nbsp;01/2021 to 08/2022
                 </p>
                 <p className="record__body">
-                  Cyber security subject-matter advice across cloud, hybrid,
-                  and on-premises workloads. Threat modelling, secure SDLC,
-                  secure code review, OWASP Top 10 implementation review.
-                  Delivered a secure container proof-of-concept environment
-                  and led architecture for production container management
-                  platforms (AKS, OpenShift, Tanzu). Briefed CISO / ITSA on
-                  findings; mentored permanent and contractor staff.
+                  Provided security advice for major proposed federal projects,
+                  including threat modelling, secure SDLC, secure code review,
+                  OWASP Top 10 controls, ISM, and PSPF. Delivered a secure
+                  container proof of concept and led architecture for AKS,
+                  OpenShift, and Tanzu. Guided teams on three-tier application
+                  architecture, software-defined networking, Azure, and
+                  Kubernetes.
                 </p>
                 <p className="record__tags">
                   <span>SDLC</span>
@@ -178,32 +206,121 @@ export default function Page() {
               </div>
 
               <div className="record__entry">
-                <h3 className="record__title">
-                  Software Engineering · DevOps · Automation
-                </h3>
+                <h3 className="record__title">Cyber Security Officer</h3>
                 <p className="record__org">
                   <Redacted label="Reveal agency">
-                    Australian Federal Government
+                    Department of Education, Skills and Employment
                   </Redacted>
-                  &nbsp;·&nbsp;2012 — 2018
+                  &nbsp;·&nbsp;09/2019 to 01/2021
                 </p>
                 <p className="record__body">
-                  Six years across engineering roles supporting platforms
-                  that underpin Australia&apos;s public-facing unemployment,
-                  skills, and training services. Lead developer on the
-                  department&apos;s first AI chatbot (Microsoft Bot Framework,
-                  C#, microservice / event-driven on Azure). Introduced
-                  centralised Selenium / Page Object Model automation
-                  testing; stood up end-to-end CI/CD on Azure DevOps and TFS
-                  with custom PowerShell DSC. Server health monitoring with
-                  Dynatrace dashboards for proactive incident prevention.
+                  Advised internal stakeholders across cloud, hybrid, and
+                  on-premises workloads. Briefed the CISO and ITSA on findings,
+                  contributed to cyber-security policy and strategy, mentored
+                  APS staff, and coordinated with vendors, penetration testers,
+                  and IRAP assessors.
                 </p>
                 <p className="record__tags">
-                  <span>AI / Bot Framework</span>
-                  <span>CI/CD</span>
-                  <span>Selenium · POM</span>
+                  <span>Security architecture</span>
+                  <span>IRAP</span>
+                  <span>Risk advice</span>
+                  <span>Policy</span>
+                </p>
+              </div>
+
+              <div className="record__entry">
+                <h3 className="record__title">Managing Director</h3>
+                <p className="record__org">DEUCEM Pty Ltd · 02/2019 to 12/2019</p>
+                <p className="record__body">
+                  Led an Indigenous Australian startup specialising in software
+                  development, mobile applications, machine learning, and cyber
+                  security.
+                </p>
+                <p className="record__tags">
+                  <span>Leadership</span>
+                  <span>Software delivery</span>
+                  <span>Mobile</span>
+                  <span>ML / AI</span>
+                </p>
+              </div>
+
+              <div className="record__entry">
+                <h3 className="record__title">Security Software Engineer</h3>
+                <p className="record__org">NJOY Security · 08/2018 to 01/2019</p>
+                <p className="record__body">
+                  Delivered front-end and back-end development, security
+                  automation, Azure automation, and IRAP and PSPF consulting.
+                  Helped prepare successful PROTECTED IRAP assessments for
+                  Google and Salesforce.
+                </p>
+                <p className="record__tags">
+                  <span>Security automation</span>
+                  <span>Azure</span>
+                  <span>IRAP · PSPF</span>
+                  <span>Full stack</span>
+                </p>
+              </div>
+
+              <div className="record__entry">
+                <h3 className="record__title">Chatbot Software Developer</h3>
+                <p className="record__org">
+                  <Redacted label="Reveal agency">Department of Jobs and Small Business</Redacted>
+                  &nbsp;·&nbsp;09/2017 to 08/2018
+                </p>
+                <p className="record__body">
+                  Led design and implementation of the department&apos;s first AI
+                  help-desk chatbot using C#, Web API 2, Microsoft Bot
+                  Framework, Azure, microservices, and event-driven architecture.
+                  The service reduced first-level call-centre demand while
+                  meeting or exceeding its first-contact service target.
+                </p>
+                <p className="record__tags">
+                  <span>C# · Web API</span>
+                  <span>Bot Framework</span>
+                  <span>Azure</span>
+                  <span>Microservices</span>
+                </p>
+              </div>
+
+              <div className="record__entry">
+                <h3 className="record__title">DevOps Engineer</h3>
+                <p className="record__org">
+                  <Redacted label="Reveal agency">Department of Jobs and Small Business</Redacted>
+                  &nbsp;·&nbsp;03/2017 to 08/2018
+                </p>
+                <p className="record__body">
+                  Implemented build and release templates in TFS and Azure
+                  DevOps, plus end-to-end deployment automation using custom
+                  PowerShell DSC. Provisioned Windows Server environments and
+                  used Dynatrace dashboards and alerting to identify issues
+                  before production impact.
+                </p>
+                <p className="record__tags">
+                  <span>Azure DevOps · TFS</span>
                   <span>PowerShell DSC</span>
-                  <span>Azure DevOps</span>
+                  <span>Dynatrace</span>
+                  <span>CI/CD</span>
+                </p>
+              </div>
+
+              <div className="record__entry">
+                <h3 className="record__title">Automation Testing Software Engineer</h3>
+                <p className="record__org">
+                  <Redacted label="Reveal agency">Department of Jobs and Small Business</Redacted>
+                  &nbsp;·&nbsp;09/2016 to 08/2018
+                </p>
+                <p className="record__body">
+                  Established a stable, centralised Selenium automation
+                  framework using Page Object Model practices. Provisioned test
+                  infrastructure and Microsoft Test Manager agents to deliver
+                  parallel automated testing through department-wide CI/CD
+                  pipelines.
+                </p>
+                <p className="record__tags">
+                  <span>Selenium · POM</span>
+                  <span>MTM</span>
+                  <span>Parallel testing</span>
+                  <span>Test engineering</span>
                 </p>
               </div>
             </div>
@@ -224,76 +341,70 @@ export default function Page() {
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.01</span>
                 <p className="impact__body">
-                  Introduced automated UI testing and automated server-health
-                  monitoring across a federal department&apos;s engineering
-                  practice (2014 — 2016). Patterns and pipelines still in
-                  active use.
+                  Led the technical uplift from a legacy on-premises SIEM to
+                  Microsoft Sentinel and helped establish a cloud-native
+                  Security Operations capability.
                 </p>
               </li>
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.02</span>
                 <p className="impact__body">
-                  Contributed architecture, infrastructure, release, and code
-                  to the platforms behind Australia&apos;s public-facing
-                  unemployment, skills, and training programs.
+                  Implemented incident-response case management and SOAR,
+                  strengthening operational governance, automation, and
+                  response maturity.
                 </p>
               </li>
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.03</span>
                 <p className="impact__body">
-                  Shipped to the Azure networking plane at Microsoft. Code
-                  paths exercised daily by hundreds of millions of users
-                  worldwide.
+                  Engineered detections and hunting capability across Sentinel,
+                  Defender XDR, Defender for Endpoint, Prisma Cloud, and Cortex
+                  Cloud, improving fidelity across cloud, identity, and endpoint.
                 </p>
               </li>
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.04</span>
                 <p className="impact__body">
-                  Re-joined the federal practice in 2022 within a Technology
-                  Architecture team. Uplifted and standardised architecture
-                  artefacts still in use; introduced cadenced internal and
-                  external stakeholder rituals that materially improved
-                  inter-agency turnaround on hosting requests.
+                  Built C# and PowerShell automation to ingest, enrich, and
+                  analyse hundreds of thousands of cloud-security and compliance
+                  records for operational and executive reporting.
                 </p>
               </li>
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.05</span>
                 <p className="impact__body">
-                  Built a lightweight task-tracking system for the EL2
-                  practice lead, giving real-time visibility of team
-                  workload to senior executives and improving resource
-                  allocation.
+                  Provided technical leadership through ATO activities,
+                  Australian Government control mapping, and practical risk and
+                  compliance advice across Azure and AWS.
                 </p>
               </li>
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.06</span>
                 <p className="impact__body">
-                  Lifted the department&apos;s SOAR capability and migrated
-                  its SIEM to Microsoft Sentinel. Built threat-intelligence
-                  ingestion and reporting pipelines now used to brief SES
-                  and branch heads on cyber threat trends.
+                  Delivered a secure container proof of concept and led
+                  architecture for production-capable AKS, OpenShift, and Tanzu
+                  platforms.
                 </p>
               </li>
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.07</span>
                 <p className="impact__body">
-                  Drove ISM and Essential 8 compliance uplift across the
-                  team&apos;s internal cloud. Introduced automation that
-                  replaced manual administrative actions in Azure.
+                  Helped prepare successful PROTECTED IRAP assessments for
+                  Google and Salesforce while working at NJOY Security.
                 </p>
               </li>
               <li className="impact__item">
                 <span className="impact__index" aria-hidden="true">3.08</span>
                 <p className="impact__body">
-                  Contributed to open-source projects the team relies on, so
-                  the department consumes safer, better-maintained software
-                  from the community.
+                  Led the department&apos;s first AI help-desk chatbot and
+                  established reusable DevOps and automated-testing capability
+                  across the engineering practice.
                 </p>
               </li>
             </ul>
 
             <div className="stamp__row">
-              <Stamp rotate={-7}>Outcomes — Available on Request</Stamp>
+              <Stamp rotate={-7}>Outcomes · Available on Request</Stamp>
             </div>
           </section>
 
@@ -325,7 +436,7 @@ export default function Page() {
             </div>
 
             <div className="stamp__row">
-              <Stamp rotate={-10}>Review Complete — J.M.</Stamp>
+              <Stamp rotate={-10}>Review Complete · J.M.</Stamp>
             </div>
           </section>
 
@@ -381,9 +492,9 @@ export default function Page() {
                 </div>
               </div>
               <div className="colophon__right">
-                <div>FILE CTRL № 2026-05-JM</div>
+                <div>FILE CTRL № 2026-07-JM</div>
                 <div style={{ marginTop: "0.3rem", color: "var(--ink-faint)" }}>
-                  REV 2026.05 · STATIC EXPORT
+                  REV 2026.07 · STATIC EXPORT
                 </div>
               </div>
             </div>

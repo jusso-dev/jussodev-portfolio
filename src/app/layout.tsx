@@ -20,11 +20,11 @@ const siteUrl =
   process.env.SITE_URL ?? "https://jusso-dev.github.io/jussodev-portfolio";
 
 const description =
-  "Justin Middler — Indigenous Australian Cyber Security Engineer and Software Engineer based in Canberra, ACT. 12+ years across Australian Federal Government engagements in development, cyber-security, SOAR, SIEM (Microsoft Sentinel), ACSC ISM and Essential 8 uplift. Formerly Microsoft, Core Azure Networking.";
+  "Justin Middler: Indigenous Australian Cyber Security Engineer and Software Engineer based in Canberra, ACT. Almost 15 years across Australian Public Service, cloud security, security operations, GRC, architecture, DevOps, and software engineering. Former Microsoft Azure control-plane engineer.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Justin Middler — Cyber Security Engineer · Canberra, ACT",
+  title: "Justin Middler · Cyber Security Engineer · Canberra, ACT",
   description,
   applicationName: "Justin Middler · Dossier",
   authors: [{ name: "Justin Middler", url: "https://github.com/jusso-dev" }],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     "Canberra ACT",
     "Australian Federal Government",
     "Microsoft Azure",
-    "Core Azure Networking",
+    "Azure Control Plane",
     "SOAR",
     "SIEM",
     "Microsoft Sentinel",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     locale: "en_AU",
     url: "/",
     siteName: "Justin Middler · Dossier",
-    title: "Justin Middler — Cyber Security Engineer · Canberra, ACT",
+    title: "Justin Middler · Cyber Security Engineer · Canberra, ACT",
     description,
     firstName: "Justin",
     lastName: "Middler",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Justin Middler — Cyber Security Engineer · Canberra, ACT",
+    title: "Justin Middler · Cyber Security Engineer · Canberra, ACT",
     description,
     creator: "@jusso-dev",
   },
@@ -109,7 +109,7 @@ const personSchema = {
     "Security Information and Event Management (SIEM)",
     "Microsoft Sentinel",
     "Microsoft Azure",
-    "Azure Networking",
+    "Azure Control Plane",
     "ACSC Information Security Manual (ISM)",
     "ACSC Essential 8",
     "IRAP",
@@ -120,6 +120,14 @@ const personSchema = {
     "Secure SDLC",
     "Threat Intelligence",
     "Detection Engineering",
+    "Microsoft Defender XDR",
+    "Microsoft Defender for Endpoint",
+    "Palo Alto Prisma Cloud",
+    "Cortex Cloud",
+    "Authority to Operate (ATO)",
+    "Governance, Risk and Compliance (GRC)",
+    "Power BI",
+    "Amazon Web Services",
     "Kubernetes",
     "Container Security",
     "TypeScript",
@@ -150,9 +158,9 @@ const personSchema = {
     },
     {
       "@type": "Occupation",
-      name: "Software Engineer, Core Azure Networking",
+      name: "Software Engineer, Azure Control Plane",
       occupationLocation: { "@type": "Organization", name: "Microsoft" },
-      skills: "C# / .NET, hyperscale networking, traffic engineering",
+      skills: "C# / .NET, hyperscale cloud engineering, secure software development, resilient platform design",
     },
     {
       "@type": "Occupation",

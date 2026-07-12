@@ -21,7 +21,7 @@ export function ArtifactRow({
       href={href}
       target="_blank"
       rel="noreferrer"
-      aria-label={`${name} — open repository on GitHub`}
+      aria-label={`${name}: open repository on GitHub`}
     >
       <span className="artifact__index" aria-hidden="true">
         {index}

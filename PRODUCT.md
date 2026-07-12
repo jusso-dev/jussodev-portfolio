@@ -10,7 +10,7 @@ Hiring managers, technical leaders, and government / cyber-adjacent peers landin
 
 ## Product Purpose
 
-A personal portfolio for Justin Middler — a Canberra-based Indigenous Australian software engineer with 12+ years inside the Australian Federal Government's development and cyber-security practice, and prior experience as a Software Engineer at Microsoft (core Azure Networking). The site exists to:
+A personal portfolio for Justin Middler, a Canberra-based Indigenous Australian cyber security and software engineering practitioner with almost 15 years in and alongside the Australian Public Service, and prior experience as a Software Engineer on Microsoft Azure control-plane services. The site exists to:
 
 1. Establish credibility quickly through specific, verifiable claims (tenure, employer, repos).
 2. Showcase recent personal work pulled from `github.com/jusso-dev/` — depscan, AthenemyLMS, Tawny, OakAttest, awesome-Australian-compliance, IOC-Dispatch.

@@ -1,31 +1,25 @@
 # Justin Middler
 
-Indigenous Australian Cyber Security Engineer and Software Engineer based
-in Canberra, ACT, Australia. 12+ years across Australian Federal
-Government development and cyber-security engagements. Formerly
-Microsoft, Core Azure Networking.
+Indigenous Australian Cyber Security Engineer and Software Engineer based in
+Canberra, ACT. Almost 15 years in information technology and cyber security,
+including more than a decade working in and alongside the Australian Public
+Service since 2012. Former Microsoft Software Engineer contributing to Azure
+control-plane services.
 
 GitHub: https://github.com/jusso-dev
-Site:   https://jusso-dev.github.io/jussodev-portfolio/
+Site: https://jusso-dev.github.io/jussodev-portfolio/
 
-## Identification
+## Capability
 
-- Name: Justin Middler
-- Handle: jusso-dev
-- Heritage: Indigenous Australian
-- Location: Canberra, ACT, Australia
-- Practice: Software Engineering // Cyber Security
-- Tenure: 12 years + (2012 — present)
-- Status: Operational. Open to selective engagements.
-
-## Stack
-
-TypeScript, Rust, Python, C# / .NET, PHP, Swift / React Native, PowerShell,
-Docker / Kubernetes, SQL.
-
-## Frameworks
-
-ACSC ISM, Essential 8, IRAP, PSPF, NIST, OWASP Top 10.
+- Security Operations, Security Engineering, Cloud Security, Incident
+  Response, GRC, Enterprise Architecture, C#/.NET development, DevOps,
+  automated testing, and vulnerability management.
+- Microsoft Sentinel, Defender XDR, Defender for Endpoint, Prisma Cloud,
+  Cortex Cloud, SOAR, SIEM, threat hunting, and detection engineering.
+- PSPF, ISM, Essential Eight, IRAP, ATO, NIST, OWASP Top 10, control mapping,
+  secure SDLC, and security architecture.
+- C#/.NET, PowerShell, TypeScript, Python, JavaScript, Java, Go, Swift, Azure,
+  AWS, GCP, Docker, Kubernetes, Power BI, Azure DevOps, TFS, and Selenium.
 
 ## Certifications
 
@@ -33,77 +27,65 @@ ACSC ISM, Essential 8, IRAP, PSPF, NIST, OWASP Top 10.
 - CompTIA Security+
 - Acunetix Web Vulnerability Scanning
 
-## Mission record
+## Experience
 
-- Cyber Security Engineer · Australian Federal Government · 2022 — present.
-  Uplift of departmental SOAR capability and modernisation of the SIEM
-  platform, including migration to Microsoft Sentinel. Threat intelligence
-  ingestion pipelines and executive reporting feeding SES and branch-head
-  briefings. ISM and Essential 8 compliance uplift in internal cloud.
-  Training of APS and contractor staff on Azure, automation, and
-  industry-standard software engineering practice.
+- Cloud Security Engineer, Department of Employment and Workplace Relations,
+  2024 to 2026. Led Azure cloud-security uplift, Prisma Cloud and Cortex Cloud
+  adoption, detection and hunting capability, compliance monitoring, and
+  vulnerability management. Built C# and PowerShell pipelines processing
+  hundreds of thousands of records into Power BI executive reporting.
 
-- Software Engineer, Core Azure Networking · Microsoft · 12 months · ending
-  2022. Production work on the Azure networking plane in C# / .NET.
-  Underlying components relied on daily by hundreds of millions of users.
+- Cyber Security Engineer, Department of Employment and Workplace Relations,
+  September 2022 to 2024. Led migration from a legacy SIEM to Microsoft
+  Sentinel, implemented incident-response case management and SOAR, and
+  engineered detections across Sentinel, Defender XDR, Defender for Endpoint,
+  Prisma Cloud, and Cortex Cloud. Built threat-intelligence ingestion and
+  executive reporting. Mentored APS employees and contractors across Azure,
+  AWS, cloud security, incident response, and security operations.
 
-- Cyber Security Architect and Cyber Security Officer · Australian Federal
-  Government · 2019 — 2022. Cyber security subject-matter advice across
-  cloud, hybrid, and on-premises workloads. Threat modelling, secure SDLC,
-  secure code review, OWASP Top 10 review. Delivered secure container
-  proof-of-concept; architected production container platforms (AKS,
-  OpenShift, Tanzu). Briefed CISO / ITSA on findings.
+- Software Engineer, Microsoft Azure control plane, earlier career.
+  Contributed C#/.NET production engineering to services supporting
+  infrastructure used by hundreds of millions of people.
 
-- Software Engineering · DevOps · Automation · Australian Federal
-  Government · 2012 — 2018. Engineering roles supporting platforms that
-  underpin Australia's public-facing unemployment, skills, and training
-  services. Lead developer on the department's first AI chatbot (Microsoft
-  Bot Framework, C#, microservice / event-driven on Azure). Introduced
-  centralised Selenium / Page Object Model automation testing and stood up
-  end-to-end CI/CD on Azure DevOps and TFS with custom PowerShell DSC.
-  Server health monitoring with Dynatrace.
+- Cyber Security Architect, Department of Education, Skills and Employment,
+  January 2021 to August 2022. Advised major federal projects on secure SDLC,
+  threat modelling, code review, OWASP Top 10, ISM, and PSPF. Delivered a
+  secure container proof of concept and led AKS, OpenShift, and Tanzu
+  architecture.
 
-## Notable impact
+- Cyber Security Officer, Department of Education, Skills and Employment,
+  September 2019 to January 2021. Advised cloud, hybrid, and on-premises
+  programs; briefed the CISO and ITSA; contributed to policy and strategy; and
+  coordinated with vendors, penetration testers, and IRAP assessors.
 
-- Introduced automated UI testing and automated server-health monitoring
-  across a federal department's engineering practice (2014 — 2016).
-  Patterns and pipelines still in active use.
-- Contributed architecture, infrastructure, release, and code to the
-  platforms behind Australia's public-facing unemployment, skills, and
-  training programs.
-- Shipped to the Azure networking plane at Microsoft. Code paths exercised
-  daily by hundreds of millions of users worldwide.
-- Re-joined the federal practice in 2022 within a Technology Architecture
-  team. Uplifted and standardised architecture artefacts still in use;
-  introduced cadenced internal and external stakeholder rituals that
-  improved inter-agency turnaround on hosting requests.
-- Built a lightweight task-tracking system for the EL2 practice lead,
-  giving real-time visibility of team workload to senior executives.
-- Lifted departmental SOAR capability and migrated the SIEM to Microsoft
-  Sentinel. Built threat-intelligence ingestion and reporting pipelines.
-- Drove ISM and Essential 8 compliance uplift across internal cloud.
-- Contributed to open-source projects the team relies on, so the
-  department consumes safer, better-maintained software from the
-  community.
+- Managing Director, DEUCEM Pty Ltd, February to December 2019. Led an
+  Indigenous Australian startup specialising in software, mobile applications,
+  machine learning, and cyber security.
 
-## Field artifacts · github.com/jusso-dev
+- Security Software Engineer, NJOY Security, August 2018 to January 2019.
+  Delivered full-stack and security automation, Azure automation, and IRAP and
+  PSPF consulting. Helped prepare successful PROTECTED IRAP assessments for
+  Google and Salesforce.
 
-- ScopeStack — Branded SOW, proposal, and quote workflow with templates,
-  client portal acceptance, audit trails, and PDFs. TypeScript.
-- AthenemyLMS — Self-hostable LMS for course authoring, branded
-  workspaces, payments, certificates, APIs, and automation hooks.
-  TypeScript.
-- Tawny — Self-hosted lightweight EDR with a Zig agent, .NET backend,
-  detection rules, and Sentinel/Wazuh forwarding. C# / Zig / TypeScript.
-- OakAttest — Open-source IRAP assessment workspace for scoping,
-  evidence, ISM applicability, findings, and SSP exports. TypeScript.
-- awesome-Australian-compliance — Agent skills and markdown references
-  for Essential Eight, ISM, IRAP, PSPF, privacy, NDB, and compliance
-  work. Markdown / Shell.
-- IOC-Dispatch — API-first IOC submission router with provider routing,
-  audit logs, and safe browser-automation fallbacks. TypeScript.
+- Chatbot Software Developer, Department of Jobs and Small Business, September
+  2017 to August 2018. Led the department's first AI help-desk chatbot using
+  C#, Web API 2, Microsoft Bot Framework, Azure, microservices, and
+  event-driven architecture.
+
+- DevOps Engineer, Department of Jobs and Small Business, March 2017 to August
+  2018. Implemented TFS and Azure DevOps delivery templates, PowerShell DSC
+  deployment automation, Windows Server provisioning, and Dynatrace monitoring.
+
+- Automation Testing Software Engineer, Department of Jobs and Small Business,
+  September 2016 to August 2018. Established a centralised Selenium and Page
+  Object Model framework and parallel testing through department-wide CI/CD.
+
+## Selected open-source work
+
+See https://github.com/jusso-dev for current repositories, including Kelpie,
+Tawny, Bunya, OakAttest, DingoDocs, GRiCk, BlakCert, BlakFile, depscan,
+AthenemyLMS, awesome-Australian-compliance, and IOC-Dispatch.
 
 ## Contact
 
-GitHub: https://github.com/jusso-dev — open an issue on any listed
-artifact; identifies sender and preserves the record.
+GitHub: https://github.com/jusso-dev

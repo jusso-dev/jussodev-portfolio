@@ -1,6 +1,6 @@
 # jussodev-portfolio
 
-Personal portfolio for Justin Middler — software engineer, AU Federal Government dev & cyber (10y+), formerly Microsoft (Core Azure Networking).
+Personal portfolio for Justin Middler, an Indigenous Australian cyber security and software engineering practitioner with almost 15 years in and alongside the Australian Public Service, plus prior Microsoft Azure control-plane experience.
 
 Static Next.js site styled as a declassified government dossier. Ships to GitHub Pages.
 

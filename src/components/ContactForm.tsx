@@ -72,10 +72,10 @@ export function ContactForm() {
       <div className="form__sent" role="status" aria-live="polite">
         <span
           className="stamp"
-          aria-label="Received — File Logged"
+          aria-label="Received · File Logged"
           style={{ "--rotate": "-4deg" } as React.CSSProperties}
         >
-          Received — File Logged
+          Received · File Logged
         </span>
         <p>
           Transmission acknowledged. Response will arrive from the
@@ -95,7 +95,7 @@ export function ContactForm() {
       aria-describedby="form-meta"
     >
       <p id="form-meta" className="form__meta">
-        Form 7B — Inbound contact request. Routed through external
+        Form 7B · Inbound contact request. Routed through external
         custodian. No email address exposed.
       </p>
 
@@ -111,7 +111,7 @@ export function ContactForm() {
       <input
         type="hidden"
         name="_subject"
-        value="Dossier 001 — Inbound Request"
+        value="Dossier 001 · Inbound Request"
       />
 
       <div className="form__row">

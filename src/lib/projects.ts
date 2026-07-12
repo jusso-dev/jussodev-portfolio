@@ -42,7 +42,7 @@ export const projects: Project[] = [
   {
     name: "Kelpie",
     description:
-      "Self-hosted incident response and case management for small SOC teams — cases, timelines, and collaborative triage.",
+      "Self-hosted incident response and case management for small SOC teams: cases, timelines, and collaborative triage.",
     lang: "TypeScript",
     updated: "2026.07",
     href: "https://github.com/jusso-dev/Kelpie",

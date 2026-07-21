@@ -17,7 +17,7 @@ const body = JetBrains_Mono({
 });
 
 const siteUrl =
-  process.env.SITE_URL ?? "https://jusso-dev.github.io/jussodev-portfolio";
+  process.env.SITE_URL ?? "https://justin.middler.io";
 
 const description =
   "Justin Middler: Indigenous Australian Cyber Security Engineer and Software Engineer based in Canberra, ACT. Almost 15 years across Australian Public Service, cloud security, security operations, GRC, architecture, DevOps, and software engineering. Former Microsoft Azure control-plane engineer.";

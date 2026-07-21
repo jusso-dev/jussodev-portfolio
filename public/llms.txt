@@ -7,7 +7,7 @@ Service since 2012. Former Microsoft Software Engineer contributing to Azure
 control-plane services.
 
 GitHub: https://github.com/jusso-dev
-Site: https://jusso-dev.github.io/jussodev-portfolio/
+Site: https://justin.middler.io/
 
 ## Capability
 

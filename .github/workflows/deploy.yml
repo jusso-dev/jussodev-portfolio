@@ -32,7 +32,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: /${{ github.event.repository.name }}
+          SITE_URL: https://justin.middler.io
           NEXT_PUBLIC_FORMSPREE_ENDPOINT: ${{ secrets.NEXT_PUBLIC_FORMSPREE_ENDPOINT }}
           NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
         run: npm run build

@@ -4,6 +4,8 @@ Personal portfolio for Justin Middler, an Indigenous Australian cyber security a
 
 Static Next.js site styled as a declassified government dossier. Ships to GitHub Pages.
 
+Live at [justin.middler.io](https://justin.middler.io/).
+
 ## Screenshot
 
 ![Portfolio homepage](docs/screenshots/portfolio-home.png)
@@ -35,14 +37,13 @@ npm run build      # writes ./out
 
 ## Deploy
 
-Pushes to `main` build and publish to GitHub Pages via `.github/workflows/deploy.yml`. The workflow sets `BASE_PATH=/<repo-name>` at build time so the site renders correctly under project-page URLs (`https://<user>.github.io/<repo>/`).
-
-For a custom domain or `user.github.io` user-page repo, leave `BASE_PATH` empty.
+Pushes to `main` build and publish to GitHub Pages via `.github/workflows/deploy.yml`. The site is built for the custom domain root, so Next.js assets resolve from `/_next/` instead of the old `/jussodev-portfolio/_next/` project-page path.
 
 In the GitHub repo:
 
 1. **Settings → Pages → Build and deployment → Source**: select **GitHub Actions**.
-2. Push to `main`. The workflow does the rest.
+2. **Settings → Pages → Custom domain**: set `justin.middler.io`.
+3. Push to `main`. The workflow does the rest.
 
 ## Stack
 

@@ -2,6 +2,7 @@ import { ArtifactRow } from "@/components/ArtifactRow";
 import { ClassificationBanner } from "@/components/ClassificationBanner";
 import { ContactForm } from "@/components/ContactForm";
 import { Redacted } from "@/components/Redacted";
+import { SiteNav } from "@/components/SiteNav";
 import { Stamp } from "@/components/Stamp";
 import { projects } from "@/lib/projects";
 
@@ -11,6 +12,7 @@ export default function Page() {
       <ClassificationBanner position="top" />
 
       <main className="shell">
+        <SiteNav current="dossier" />
         <article
           className="dossier"
           aria-labelledby="dossier-title"

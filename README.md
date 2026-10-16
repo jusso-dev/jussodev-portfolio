@@ -35,6 +35,10 @@ npm run dev        # http://localhost:3000
 npm run build      # writes ./out
 ```
 
+## Blog
+
+Markdown posts live in `content/blog/` and render to `/blog/` at build time, with an RSS feed at `/blog/rss.xml`. See [`content/blog/README.md`](content/blog/README.md) for how to add a post.
+
 ## Deploy
 
 Pushes to `main` build and publish to GitHub Pages via `.github/workflows/deploy.yml`. The site is built for the custom domain root, so Next.js assets resolve from `/_next/` instead of the old `/jussodev-portfolio/_next/` project-page path.

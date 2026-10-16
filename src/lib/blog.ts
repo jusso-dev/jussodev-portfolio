@@ -43,7 +43,12 @@ function toDateString(value: unknown): string | null {
     return value.toISOString().slice(0, 10);
   }
   if (typeof value === "string" && DATE_RE.test(value.trim())) {
-    return value.trim();
+    const date = value.trim();
+    // Reject impossible dates such as 2026-02-30.
+    const parsed = new Date(`${date}T00:00:00Z`);
+    if (!Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === date) {
+      return date;
+    }
   }
   return null;
 }
@@ -71,7 +76,7 @@ function parseFile(file: string): { meta: PostMeta; body: string } {
   const title = requireString(file, data, "title");
   const summary = requireString(file, data, "summary");
   const date = toDateString(data.date);
-  if (!date) fail(file, 'frontmatter "date" is required, formatted YYYY-MM-DD.');
+  if (!date) fail(file, 'frontmatter "date" is required and must be a real date formatted YYYY-MM-DD.');
   if (date !== fileDate) {
     fail(file, `frontmatter date ${date} does not match the filename date ${fileDate}.`);
   }
@@ -102,14 +107,16 @@ let cache: { meta: PostMeta; body: string }[] | null = null;
 
 function loadAll() {
   if (cache && process.env.NODE_ENV === "production") return cache;
-  let files: string[] = [];
+  let files: string[];
   try {
     files = readdirSync(BLOG_DIR);
-  } catch {
-    files = [];
+  } catch (error) {
+    throw new Error(`[blog] cannot read ${BLOG_DIR}`, { cause: error });
   }
+  // Any .md/.MD file except the README is a post candidate, so a bad
+  // extension fails validation instead of silently dropping the post.
   const parsed = files
-    .filter((f) => f.endsWith(".md") && f.toLowerCase() !== "readme.md")
+    .filter((f) => f.toLowerCase().endsWith(".md") && f.toLowerCase() !== "readme.md")
     .map(parseFile);
 
   const seen = new Map<string, string>();

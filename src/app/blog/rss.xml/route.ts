@@ -39,8 +39,6 @@ export function GET() {
     })
     .join("\n");
 
-  const lastBuild = posts[0] ? rfc822(posts[0].date) : new Date(0).toUTCString();
-
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -48,7 +46,6 @@ export function GET() {
     <link>${blogUrl}</link>
     <description>Notes from Justin Middler on cyber security, cloud platforms and the tools he builds.</description>
     <language>en-au</language>
-    <lastBuildDate>${lastBuild}</lastBuildDate>
     <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />
 ${items}
   </channel>

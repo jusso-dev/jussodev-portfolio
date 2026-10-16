@@ -11,8 +11,14 @@ type Props = { params: Promise<{ slug: string }> };
 // Only slugs from content/blog exist. Anything else is a 404.
 export const dynamicParams = false;
 
+// With output: export, Next needs at least one param. When there are no posts
+// yet, emit a placeholder that renders the 404 page and is linked from nowhere.
+const EMPTY_PLACEHOLDER = "no-posts-yet";
+
 export function generateStaticParams() {
-  return getAllPosts().map((post) => ({ slug: post.slug }));
+  const posts = getAllPosts();
+  if (posts.length === 0) return [{ slug: EMPTY_PLACEHOLDER }];
+  return posts.map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

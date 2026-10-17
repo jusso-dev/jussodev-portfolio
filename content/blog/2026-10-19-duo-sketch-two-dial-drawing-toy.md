@@ -8,6 +8,8 @@ draft: false
 
 Duo Sketch is a drawing toy I've built for the iPhone Duo, Apple's foldable iPhone, which goes on sale on 23 October. There are two dials. Turn the left one to draw across, turn the right one to draw up and down, and turn both together for diagonals and curves.
 
+Yes, it turns a $4,699 AUD phone (the 1TB model, at Apple's Australian price) into an Etch A Sketch. I think that's a totally sensible use of it.
+
 The fun part is clearing it. Fold the phone shut, open it again, and the board gives a little shake and the drawing is gone. If you didn't mean to, Undo clear in the toolbar brings it back for a few seconds.
 
 ## How it uses the fold

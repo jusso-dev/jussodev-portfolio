@@ -8,6 +8,10 @@ draft: false
 
 The PHP security team has given advance notice of an emergency security release on Wednesday 21 October at 14:00 UTC. That's 1am Thursday here in Canberra.
 
+## Update, 22 October: the fixes are out
+
+PHP has released 8.5.12, 8.4.27, 8.3.36 and 8.2.35. I've written up the fixed versions and what to do next in [The PHP RCE fixes are out](https://justin.middler.io/blog/php-rce-fixes-released/).
+
 ## Update, 21 October, 10pm AEDT
 
 The picture on exploitation has moved since this morning, and the reports don't agree yet.

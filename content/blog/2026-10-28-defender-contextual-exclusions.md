@@ -8,11 +8,11 @@ draft: false
 
 ## What SwiftOnSecurity said
 
-SwiftOnSecurity posted on X that Microsoft Defender can restrict exclusions so they only apply when certain processes access certain folders, triggered by certain reasons. Her point is that this is almost entirely unused, and that broad exclusions open machines to wide abuse. She's teasing a tool called Swiftfender that would suggest those locked-down restrictions to you and your admins. It isn't out yet, so I can't say anything about how it works.
+SwiftOnSecurity posted on X that Microsoft Defender can restrict exclusions so they only apply when certain processes access certain folders, triggered by certain reasons. Their point is that this is almost entirely unused, and that broad exclusions open machines to wide abuse. SwiftOnSecurity is teasing a tool called Swiftfender that would suggest those locked-down restrictions to you and your admins. It isn't out yet, so I can't say anything about how it works.
 
 Source: [SwiftOnSecurity on X](https://x.com/SwiftOnSecurity/status/2115123332685148563)
 
-## The feature she's talking about
+## The feature SwiftOnSecurity is talking about
 
 Microsoft calls them contextual file and folder exclusions. You take a normal path exclusion and add restrictions to it with this syntax:
 

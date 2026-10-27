@@ -35,7 +35,7 @@ It needs Defender Antivirus platform 4.18.2205.7 and engine 1.1.19300.2 or later
 
 Every exclusion is a trade between performance and protection. A plain folder exclusion like `D:\AppData\` tells Defender to ignore anything dropped there by anything, which is exactly where an attacker would like to stage a payload. Excluding a whole process is worse, because Defender then ignores everything that process does.
 
-Most exclusion lists I've seen in client tenants grew one vendor support ticket at a time. Nobody goes back to tighten them.
+Exclusion lists tend to grow one vendor support ticket at a time, and they rarely get tightened afterwards.
 
 ## What I'd do this week
 
